@@ -1,0 +1,9 @@
+version: "3.3"
+services:
+  oda-cc-address-service:
+    build: .
+    image: "oda-cc-address-service:1.0"
+    container_name: "oda-cc-address-service"
+    command: "npm start"
+    ports:
+      - 3000:3000    
